@@ -1,17 +1,18 @@
 <template>
-  <NavBarMenu/>
-  <CadastroDeNotaDeCredito/>
+  <div id="app">
+    <MenuPrincipal/>
+  </div>
 </template>
 
 <script>
-import NavBarMenu from './components/NavBarMenu.vue';
-import CadastroDeNotaDeCredito from './components/CadastroDeNotaDeCredito.vue';
+import MenuPrincipal from './components/Menu.vue';
+
 
 export default {
   name: 'App',
   components: {
-    NavBarMenu,
-    CadastroDeNotaDeCredito
+    MenuPrincipal
+    
   }
 }
 </script>
